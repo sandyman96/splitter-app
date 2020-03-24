@@ -1,6 +1,5 @@
 const bcrypt_const = require('bcrypt');
 module.exports = bcrypt_const;
-
 /****
 To check a password:
 
@@ -19,6 +18,6 @@ const hash = bcrypt.hashSync(myPlaintextPassword, salt);
 
 Technique 2 (auto-gen a salt and hash):
 
-const hash = bcrypt.hashSync(myPlaintextPassword, saltRounds);
+const hash = bcrypt.hashSync(myPlaintextPassword, saltRounds); //saltRounds = 10
 // Store hash in your password DB.
 ***/

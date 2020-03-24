@@ -4,26 +4,37 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "main": "server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^4.0.0",
+    "babel-runtime": "^6.26.0",
+    "bcrypt": "^4.0.1",
     "body-parser": "^1.19.0",
+    "check": "^1.0.0",
     "cookie-parser": "^1.4.4",
+    "core-js": "^3.6.4",
+    "core-util-is": "^1.0.2",
     "custom-env": "^2.0.1",
-    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "jsonwebtoken": "^8.5.1",
-    "mysql": "^2.18.1",
+    "libsodium": "^0.7.6",
+    "lodash": "^4.17.15",
+    "ms": "^2.1.2",
     "mysql2": "^2.1.0",
+    "nodemailer": "^6.4.5",
     "nodemon": "^2.0.2",
+    "openshift": "^1.0.0",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "random-number-csprng": "^1.0.2",
     "sequelize": "^5.21.5"
   }
 }

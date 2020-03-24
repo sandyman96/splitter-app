@@ -6,4 +6,7 @@ const sequelize = new Sequelize(db.database, db.user, db.password, {
     dialect: 'mysql'
 });
 
-module.exports = {sequelize:sequelize, DataTypes:DataTypes};
+module.exports = {
+    sequelize:sequelize,
+    DataTypes:DataTypes
+};
